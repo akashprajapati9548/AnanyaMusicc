@@ -50,7 +50,7 @@ async def show_video_callback(_, query):
         await query.message.edit_media(
             media=InputMediaVideo(
                 media=Shruti_Repo,
-                spoiler=True,
+                has_spoiler=True,
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
