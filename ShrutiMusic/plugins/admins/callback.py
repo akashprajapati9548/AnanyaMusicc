@@ -38,6 +38,33 @@ import config
 checker = {}
 upvoters = {}
 
+from pyrogram.types import InputMediaVideo, InlineKeyboardButton, InlineKeyboardMarkup, Message
+from ShrutiMusic import app
+
+Shruti_Repo = "https://files.catbox.moe/2d32oj.mp4"
+
+@app.on_callback_query(filters.regex("show_video_panel"))
+async def show_video_callback(_, query):
+    await query.answer()
+    try:
+        await query.message.edit_media(
+            media=InputMediaVideo(
+                media=Shruti_Repo,
+                spoiler=True,
+            ),
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="‹ ʙᴀᴄᴋ", callback_data="settingsback_helper"
+                        )
+                    ]
+                ]
+            ),
+        )
+    except Exception as e:
+        await query.message.reply_text(f"Failed to show video: {e}")
+
 
 @app.on_callback_query(filters.regex("ADMIN") & ~BANNED_USERS)
 @languageCB
