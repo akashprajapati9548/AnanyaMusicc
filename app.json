@@ -24,7 +24,7 @@
     },
     "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
-      "value": "",
+      "value": "6044614889:AAFuyk8yVWc8OhJQy-fm6-C1gvG4VwwsrZQ",
       "required": true
     },
     "MONGO_DB_URI": {
@@ -34,17 +34,17 @@
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7853121219",
+      "value": "7812820889",
       "required": true
     },
     "OWNER_USERNAME": {
       "description": "The username of the owner (without @)",
-      "value": "WTF_NoHope",
+      "value": "IAS_SINGHJEE",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "The username of your bot (without @)",
-      "value": "Ananya_VcMusic_Bot",
+      "value": "SANJANAXROBOT",
       "required": true
     },
     "UPSTREAM_REPO": {
@@ -54,7 +54,7 @@
     },
     "STRING_SESSION": {
       "description": "A Pyrogram v2 String Session from Replit.",
-      "value": "",
+      "value": "BQE0Py8AiNr2zMbjNAxv3lo0ILVQYM2KeVYRqvitdM2S3UUFEEqIohBQAKI0Bax807_nb6IwOhNdBahf4zqgOGsth7HpLPKOKhlZaLERXgz8jtK6LSxyc_esmKbYN2hbA9YeJ_psoewS2LiFtvNXtZp4Hz7ztFZDE7bT9fDkhVujXA6plEyjoIcikLrP-Fn3kkpgX2rH1RrllNmaBgrxVQA4PGQdlBaTSQFtpLLFmgeUmL6UG-a223OD8Zq2PpxDBUBbVQNExVTgoyk0tuvxm1XEUcb1N_8Omjx7vZ_TMbagdKOlcEXqZ3AxGQe3eVDOImiqH5W2zMDqCkQf3cLZmayEQ54t2wAAAAFlV3K-AA",
       "required": true
     },
     "GIT_TOKEN": {
