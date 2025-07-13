@@ -12,7 +12,7 @@ def start_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text=_["E_X_1"], url="https://github.com/NoxxOP/ShrutiMusic/fork"
+                text=_["E_X_1"], url="https://files.catbox.moe/tub372.mp4"
             ),
             InlineKeyboardButton(
                 text="🛡️ Pᴏʟɪᴄʏ", url="https://graph.org/Privacy-Policy-05-01-30"
