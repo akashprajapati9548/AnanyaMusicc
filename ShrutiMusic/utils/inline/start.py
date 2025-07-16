@@ -31,7 +31,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text=_["E_X_1"], callback_data="show_video_panel"
+                text=_["E_X_1"], callback_data="https://files.catbox.moe/tub372.mp4"
             ),
             InlineKeyboardButton(
                 text=_["S_B_5"], url=f"https://t.me/{config.OWNER_USERNAME}"
