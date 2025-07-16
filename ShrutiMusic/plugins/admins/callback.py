@@ -41,7 +41,7 @@ upvoters = {}
 from pyrogram.types import InputMediaVideo, InlineKeyboardButton, InlineKeyboardMarkup, Message
 from ShrutiMusic import app
 
-Shruti_Repo = "https://files.catbox.moe/2d32oj.mp4"
+Shruti_Repo = "https://files.catbox.moe/tub372.mp4"
 
 @app.on_callback_query(filters.regex("show_video_panel"))
 async def show_video_callback(_, query):
