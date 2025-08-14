@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://files.catbox.moe/eehxb4.jpg" alt="ShrutiMusicBot Logo" width="500px">
+<img src="https://files.catbox.moe/yjwh02.jpg" alt="AnanyaMusicBot Logo" width="500px">
 </p>
 
-<h1 align="center">🎵 Shruti Music Bot 🎵</h1>
+<h1 align="center">🎵 Ananya Music Bot 🎵</h1>
 
 <p align="center">
   <b>A Powerful Telegram Music Bot to Play Songs in Voice Chats</b>
